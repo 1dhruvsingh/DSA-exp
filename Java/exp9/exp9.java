@@ -13,7 +13,8 @@ public class CollectionDemo {
         list.set(1, "Blueberry");  // Update
         System.out.println("List after update: " + list);
         
-        list.remove("Apple");  // Delete
+        list.remove("Apple");
+          // Delete
         System.out.println("List after deletion: " + list);
         
         System.out.println("Read element at index 1: " + list.get(1)); // Read
